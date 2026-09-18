@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<title>TheVikingBay — Live War Room</title>
+<style>
+:root{--bg:#07080c;--card:#12141c;--line:#2a2e3a;--gold:#d4a017;--ice:#8ec8c8;--win:#3dba7a;--lose:#e25555;--muted:#9aa3b2;--txt:#f3f0e7}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.45 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif}
+header{padding:22px 18px 8px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#16120a,#07080c)}
+.brand{font-size:13px;letter-spacing:.18em;color:var(--gold);text-transform:uppercase}
+h1{margin:6px 0 0;font-size:28px}.sub{color:var(--muted);font-size:14px;margin-top:6px}
+nav{display:flex;gap:8px;padding:12px 18px;position:sticky;top:0;background:#07080ce6;z-index:2}
+nav a{flex:1;text-align:center;padding:10px 8px;border:1px solid var(--line);border-radius:999px;color:var(--txt);text-decoration:none;font-size:13px}
+main{padding:8px 16px 80px;max-width:720px;margin:0 auto}h2{font-size:13px;letter-spacing:.14em;color:var(--ice);text-transform:uppercase}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;margin:0 0 12px}
+.pick{display:flex;justify-content:space-between;gap:10px;padding:10px 0;border-bottom:1px solid #1c2030}
+.fx{font-weight:700}.mk{color:var(--muted);font-size:13px}.conf{color:var(--gold);font-weight:700}
+.combo{background:#1a1408;border-color:#3d2e0d}.tag{font-size:11px;border:1px solid var(--gold);color:var(--gold);padding:2px 7px;border-radius:999px}
+.w{color:var(--win)}.l{color:var(--lose)}footer{color:var(--muted);font-size:12px;padding:24px 18px}
+</style></head><body>
+<header><div class="brand">TheVikingBay · Live feed</div><h1>War Room</h1>
+<p class="sub">Last published boards · 18+ research only</p></header>
+<nav><a href="#soccer">Soccer</a><a href="#mlb">MLB</a><a href="#weekend">Weekend</a></nav>
+<main>
+<section id="soccer"><h2>Soccer · 17 Sep</h2>
+<div class="card">
+<div class="pick"><div><div class="fx">Juventus vs NEC</div><div class="mk">Juventus win</div></div><div class="conf">71%</div></div>
+<div class="pick"><div><div class="fx">Palace vs Lech</div><div class="mk">Crystal Palace win</div></div><div class="conf">69%</div></div>
+<div class="pick"><div><div class="fx">Betis vs Getafe</div><div class="mk">Real Betis win</div></div><div class="conf">68%</div></div>
+<div class="pick"><div><div class="fx">OFI vs Hoffenheim</div><div class="mk">Hoffenheim win</div></div><div class="conf">67%</div></div>
+<div class="pick"><div><div class="fx">Sociedad vs Bournemouth</div><div class="mk">Sociedad 1X</div></div><div class="conf">66%</div></div>
+<div class="pick"><div><div class="fx">Celtic vs Ferencvaros</div><div class="mk">Under 3.5</div></div><div class="conf">65%</div></div>
+</div>
+<div class="card combo"><span class="tag">SAFER 3-LEG</span><div class="fx">Juventus · Palace · Betis</div></div>
+</section>
+<section id="mlb"><h2>MLB · 17 Sep</h2>
+<div class="card">
+<div class="pick"><div><div class="fx">ATH @ Rays</div><div class="mk">TB ML</div></div><div class="conf">71%</div></div>
+<div class="pick"><div><div class="fx">Padres @ Rockies</div><div class="mk">SD F5 ML</div></div><div class="conf">68%</div></div>
+<div class="pick"><div><div class="fx">Dodgers @ Reds</div><div class="mk">LAD F5 ML</div></div><div class="conf">67%</div></div>
+<div class="pick"><div><div class="fx">Brewers @ Pirates</div><div class="mk">Under 8.5</div></div><div class="conf">66%</div></div>
+<div class="pick"><div><div class="fx">Red Sox @ Rangers</div><div class="mk">BOS F5 ML</div></div><div class="conf">66%</div></div>
+<div class="pick"><div><div class="fx">Phillies @ Mets</div><div class="mk">PHI ML</div></div><div class="conf">65%</div></div>
+</div>
+<div class="card combo"><span class="tag">SAFER 2-LEG</span><div class="fx">Rays ML + Padres F5</div></div>
+</section>
+<section id="weekend"><h2>Weekend 11-13 Sep</h2>
+<div class="card">
+<div class="pick"><div><div class="fx">Soccer singles</div></div><div class="conf"><span class="w">16W</span> <span class="l">11L</span></div></div>
+<div class="pick"><div><div class="fx">Top 10 duos</div></div><div class="conf"><span class="w">7W</span> <span class="l">3L</span></div></div>
+<div class="pick"><div><div class="fx">Forge card</div></div><div class="conf"><span class="w">19W</span> <span class="l">15L</span></div></div>
+</div></section>
+</main>
+<footer>18+ only. Research, not betting advice.</footer>
+</body></html>
